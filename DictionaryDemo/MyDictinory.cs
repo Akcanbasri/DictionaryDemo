@@ -25,7 +25,7 @@ namespace DictionaryDemo
 
             return key.Length;           
         }
-
+        // Adding values with Add() function
         public void Add(TKey item, TValue item2)
         {
             TKey[] _tempKey = key;
@@ -43,6 +43,7 @@ namespace DictionaryDemo
             value[key.Length - 1] = item2;  
         }
 
+        //calling all Dict. from main
         public void GetDİct()
         {
             for (int i = 0; i < Count(); i++)
